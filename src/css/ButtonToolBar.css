@@ -1,4 +1,6 @@
 .button-tool-bar {
-	position:absolute;
+	width: 100%;
+	position: absolute;
 	bottom: 30px;
+	text-align: center;
 }
