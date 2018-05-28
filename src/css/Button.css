@@ -4,6 +4,27 @@
   font-size:25px;
 }
 
+@media (min-width:974px) and (max-width: 1298px) {
+.large-button {
+  width:160px;
+  height:60px;
+  font-size:25px;
+}
+}
+
 .main-button {
 	margin: 0 120px;
+}
+
+@media (min-width:974px) and (max-width: 1366px) {
+.main-button {
+	margin: 0 50px;
+}
+}
+
+@media (max-width: 974px) {
+.main-button {
+	width: 100%;
+	margin: 0;
+}
 }
