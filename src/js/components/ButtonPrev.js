@@ -6,7 +6,7 @@ class ButtonPrev extends Component {
 	render() {
 		return (
 			<Button 
-				className="large-button main-button button-prev" 
+				className="large-button main-button button-prev menu-button glossy" 
 				bsSize="large"
 				onClick={ this.props.onClick }
 			>
