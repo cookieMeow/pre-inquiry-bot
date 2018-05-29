@@ -5,7 +5,7 @@ import '../../css/Button.css';
 class MenuButton extends Component {
 	render() {
 		return (
-			<a className="menu-button glossy green">
+			<a className="menu-button glossy green" href={this.props.link}>
 				{ this.props.children }
 			</a>
 		);

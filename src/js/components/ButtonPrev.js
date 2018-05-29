@@ -5,7 +5,11 @@ import '../../css/Button.css';
 class ButtonPrev extends Component {
 	render() {
 		return (
-			<Button className="large-button main-button button-prev" bsSize="large">
+			<Button 
+				className="large-button main-button button-prev" 
+				bsSize="large"
+				onClick={ this.props.onClick }
+			>
 				上一步
 			</Button>
 		);

@@ -15,7 +15,7 @@ class Inquiry extends Component {
 				</div>
 
 				<div className="home-buttons-container">
-					<p><MenuButton>插卡签到</MenuButton></p>
+					<p><MenuButton link="/readcard">插卡签到</MenuButton></p>
 					<p><MenuButton>预问诊</MenuButton></p>
 					<p><MenuButton>智能小七</MenuButton></p>
 				</div>
