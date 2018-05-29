@@ -6,6 +6,7 @@ import {
 import Home from './Home.js';
 import ReadCard from './ReadCard.js';
 import StartContainer from './StartContainer.js';
+import SelectInquiry from './SelectInquiry.js';
 import '../../css/Button.css';
 
 class Inquiry extends Component {
@@ -15,6 +16,7 @@ class Inquiry extends Component {
 				<StartContainer>
 					<Route exact path="/" component={Home}/>
 					<Route path="/readcard" component={ReadCard}/>
+					<Route exact path="/select_inquiry" component={SelectInquiry}/>
 				</StartContainer>
 			</Router>
 		);

@@ -1,0 +1,19 @@
+.select-inquiry-left {
+	width:50%;
+	float:left;
+	min-height:90vh;
+	padding:60px;
+}
+
+.select-inquiry-right {
+	width:50%;
+	float:right;
+	min-height:90vh;
+	padding:60px;
+}
+
+.select-inquiry-exit {
+	position: absolute;
+	bottom:60px;
+	right:60px;
+}
