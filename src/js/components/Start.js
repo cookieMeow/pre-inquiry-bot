@@ -6,7 +6,13 @@ import {
 import Home from './Home.js';
 import ReadCard from './ReadCard.js';
 import StartContainer from './StartContainer.js';
+import SelectInquiry from './SelectInquiry.js';
 import '../../css/Button.css';
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
+
 
 class Inquiry extends Component {
 	render() {
@@ -15,6 +21,7 @@ class Inquiry extends Component {
 				<StartContainer>
 					<Route exact path="/" component={Home}/>
 					<Route path="/readcard" component={ReadCard}/>
+					<Route exact path="/select_inquiry" component={SelectInquiry}/>
 				</StartContainer>
 			</Router>
 		);

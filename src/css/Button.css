@@ -43,12 +43,6 @@
 
 .menu-button {
 	text-decoration: none;
-	width:100%;
-  height:90px;
-  line-height: 90px;
-	font-size:25px;
-	display:block;
-	background-color: #93e269;
 	padding: 5px 10px;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
 	color: #666;
@@ -64,13 +58,21 @@
 	background-image: linear-gradient(top, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
 	text-decoration: none;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
-	margin: 0 5px;
+
 	-webkit-transition: opacity 200ms;
 	-moz-transition: opacity 200ms;
 	transition: opacity 200ms;
 }
 
-.menu-button.glossy {
+.home-button {
+	display:block;
+	width:100%;
+	height:90px;
+	font-size:25px;
+	line-height: 90px;
+}
+
+.glossy {
 	background-image: -webkit-radial-gradient(50% 0, ellipse, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
 	background-image: -moz-radial-gradient(50% 0, ellipse, rgba(255, 255, 255, 0.65) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
 	background-image: -o-radial-gradient(50% 0, ellipse, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
@@ -85,8 +87,8 @@
 
 .menu-button:hover {
 	opacity: 0.8;
-	background-color: #93e269;
 }
+
 .menu-button:active {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75) inset;
 	background-color: #FAAF40;
@@ -94,5 +96,6 @@
 
 a:hover, a:visited, a:link, a:active
 {
-    text-decoration: none;
+	text-decoration: none;
+	color:#000;
 }
