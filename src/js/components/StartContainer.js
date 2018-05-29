@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../../css/Container.css';
 
-class Container extends Component {  
+class StartContainer extends Component {  
 	render() {
 		return (
-			<div className="inquiry-container">
+			<div className="start-container">
 				{ this.props.children }
 			</div>
 		);
 	}
 }
 
-export default Container;
+export default StartContainer;

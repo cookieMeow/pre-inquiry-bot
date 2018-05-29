@@ -1,0 +1,11 @@
+.home-banner {
+	width:70%;
+	display:inline-block;
+	min-height:200px;
+}
+
+.home-buttons {
+	width:30%;
+	display:inline-block;
+	min-height:200px;
+}
