@@ -8,11 +8,6 @@ import ReadCard from './ReadCard.js';
 import StartContainer from './StartContainer.js';
 import SelectInquiry from './SelectInquiry.js';
 import '../../css/Button.css';
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom'
-
 
 class Inquiry extends Component {
 	render() {
