@@ -19,11 +19,13 @@ import {
 
 class App extends Component {
 	render() {
+		const baseUrl = process.env.PUBLIC_URL; // will be /hypercomp
 		return (
+			
 			<Router>
 				<div className="App">
 					<Wrapper>
-						<Route path="/" component={Start}/>
+						<Route path={baseUrl + "/"} component={Start}/>
 						<Route path="/inquiry" component={Inquiry}/>
 					</Wrapper>
 				</div>
