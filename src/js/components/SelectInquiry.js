@@ -9,7 +9,7 @@ class Inquiry extends Component {
 		return (
 			<div>
 				<div className="select-inquiry-left">
-					<p><MenuButton>预问诊</MenuButton></p>
+					<p><MenuButton link="/inquiry">预问诊</MenuButton></p>
 				</div>
 				<div className="select-inquiry-right">
 					<p><MenuButton>智能小七</MenuButton></p>

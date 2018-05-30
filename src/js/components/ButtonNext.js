@@ -5,7 +5,7 @@ class ButtonNext extends Component {
 	render() {
 		return (
 			<Button 
-				className="large-button main-button menu-button glossy" 
+				className="large-button main-button menu-button glossy" href={ this.props.link }
 				bsStyle="success" 
 				bsSize="large"
 				onClick={ this.props.onClick }
