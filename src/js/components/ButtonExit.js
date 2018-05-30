@@ -5,8 +5,7 @@ class ButtonExit extends Component {
 	render() {
 		return (
 			<Button 
-				className="large-button main-button button-exit menu-button glossy" 
-				bsSize="large"
+				className="large-button main-button button-exit menu-button glossy" href="/"
 				onClick={ this.props.onClick }
 			>
 				退卡

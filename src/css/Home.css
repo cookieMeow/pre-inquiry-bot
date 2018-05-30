@@ -18,6 +18,7 @@
 	border-radius: 15px;
 	background-size: cover;
 	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+	position: relative;
 }
 
 .home-container {
@@ -29,6 +30,22 @@
 }
 
 .home-title-2 {
-	color:#ffec8a;
+	color:#ffa518
 }
 
+.home-buttons-bar {
+	margin: 0;
+	position: relative;
+	top: 40%;
+	transform: translate(0, 40%);
+}
+
+.home-button-div {
+	margin: 0 0 40px;
+}
+
+.home-banner-content {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+}

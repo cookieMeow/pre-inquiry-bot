@@ -6,11 +6,33 @@
 	border-radius: 15px;
 	background-size: cover;
 	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
-	font-size: 100px;
 	min-height: 80%;
+	text-align: center
 }
 
 .banner {
   padding: 25px;
   min-height: 75%;
+}
+
+.confirmation-container {
+	width:60%;
+	margin: auto;
+	border: 3px solid green;
+	text-align: left;
+	background-color: #fff;
+	margin-bottom:20px;
+}
+
+p.red {
+	color:red;
+}
+
+.readcard-title {
+	font-size: 100px;
+}
+
+.readcard-confirm-button {
+	width:200px;
+	margin:auto;
 }
