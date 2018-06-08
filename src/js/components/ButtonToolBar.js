@@ -6,12 +6,13 @@ import ButtonExit from './ButtonExit.js';
 import '../../css/ButtonToolBar.css'
 
 class ButtonToolBar extends Component {  
+
 	render() {
 		return (
 			<div className="button-tool-bar">
-				<ButtonPrev />
-				<ButtonNext />
-				<ButtonExit />
+				<ButtonPrev onClick = {this.props.onPrevClick}/>
+				<ButtonNext onClick = {this.props.onNextClick} />
+				<ButtonExit/>
 			</div>
 		);
 	}
