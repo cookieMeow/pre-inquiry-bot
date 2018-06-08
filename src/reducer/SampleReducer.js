@@ -1,10 +1,7 @@
 import _ from 'lodash'
 
 const initialState = {  
-    events: {},
-    eventIDs: [],
-    eventDetails: '',
-    popularEvents: {}
+    answer: []
 } 
 
 export const reducer = (state = initialState, action) => {
@@ -22,14 +19,9 @@ export const reducer = (state = initialState, action) => {
             });
             
             return newState;
-        case 'BUTTON_CLICK': 
-        	let fullData = action.data;
-        	let eventIds = fullData.event_ids;
+        case 'GET_DATA': 
             newState = _.assign({}, state, {
-                events: fullData.events,
-                eventIDs: eventIds,
-                contract_groups: fullData.contract_groups,
-                contracts: fullData.contracts,
+                events: state.data,
                 loading: false
             });
             

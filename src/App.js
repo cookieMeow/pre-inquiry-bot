@@ -10,6 +10,8 @@ import InquiryProgress from './js/components/InquiryProgress.js';
 import RadioSelect from './js/components/RadioSelect.js';
 import Start from './js/components/Start.js';
 import Inquiry from './js/components/Inquiry.js';
+import { connect } from 'react-redux';
+import { getEventHeadache } from './actions/SampleActions.js';
 
 import {
   BrowserRouter as Router,
@@ -18,6 +20,10 @@ import {
 
 
 class App extends Component {
+
+	componentWillMount() {
+	    this.props.onLoadPage();
+	  }
 	render() {
 		return (
 			<Router>
@@ -32,4 +38,16 @@ class App extends Component {
 	}
 }
 
-export default App;
+const mapStateToProps = (state) => {  
+  return { 
+    events: state.events
+  }  
+}  
+ 
+const mapDispatchToProps = {  
+  onLoadPage: getEventHeadache
+}  
+
+let ConnectedApp = connect(mapStateToProps, mapDispatchToProps)(App) 
+
+export default ConnectedApp;
