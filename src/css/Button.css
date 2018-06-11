@@ -1,152 +1,253 @@
 .large-button {
-	width:260px;
-	height:90px;
-	font-size:25px;
+  width: 260px;
+  height: 90px;
+  font-size: 25px;
 }
 
-@media (min-width:974px) and (max-width: 1298px) {
-.large-button {
-	width:160px;
-	height:60px;
-	font-size:25px;
-}
+@media (min-width: 974px) and (max-width: 1298px) {
+  .large-button {
+    width: 160px;
+    height: 60px;
+    font-size: 25px;
+  }
 }
 
 .main-button {
-	margin: 0 120px;
+  margin: 0 120px;
 }
 
-@media (min-width:974px) and (max-width: 1366px) {
-.main-button {
-	margin: 0 50px;
-}
+@media (min-width: 974px) and (max-width: 1366px) {
+  .main-button {
+    margin: 0 50px;
+  }
 }
 
 @media (max-width: 974px) {
-.main-button {
-	width: 100%;
-	margin: 0;
-}
+  .main-button {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .button-exit {
-	background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
 
-.btn-default:hover{
-	background-color: #c5c5c5;
+.btn-default:hover {
+  background-color: #c5c5c5;
 }
 
 .button-prev {
-	background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
 
 .menu-button {
-	text-decoration: none;
-	padding: 5px 10px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
-	color: #666;
-	border-radius: 5px;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	text-align: center;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(255, 255, 255, 0)));
-	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
-	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
-	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
-	background-image: linear-gradient(top, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
-	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  padding: 5px 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+  color: #666;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  text-align: center;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0.45)),
+    to(rgba(255, 255, 255, 0))
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0)
+  );
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
 
-	-webkit-transition: opacity 200ms;
-	-moz-transition: opacity 200ms;
-	transition: opacity 200ms;
+  -webkit-transition: opacity 200ms;
+  -moz-transition: opacity 200ms;
+  transition: opacity 200ms;
 }
 
 .home-button {
-	display:block;
-	width:100%;
-	height:90px;
-	font-size:25px;
-	line-height: 90px;
+  display: block;
+  width: 100%;
+  height: 90px;
+  font-size: 25px;
+  line-height: 90px;
 }
 
 .glossy {
-	background-image: -webkit-radial-gradient(50% 0, ellipse, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
-	background-image: -moz-radial-gradient(50% 0, ellipse, rgba(255, 255, 255, 0.65) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
-	background-image: -o-radial-gradient(50% 0, ellipse, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
-	background-image: radial-gradient(50% 0, ellipse, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
-	background-size: 300%;
-	background-position: 55% 65%;
+  background-image: -webkit-radial-gradient(
+    50% 0,
+    ellipse,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-image: -moz-radial-gradient(
+    50% 0,
+    ellipse,
+    rgba(255, 255, 255, 0.65) 25%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-image: -o-radial-gradient(
+    50% 0,
+    ellipse,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-image: radial-gradient(
+    50% 0,
+    ellipse,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 300%;
+  background-position: 55% 65%;
 }
 
 .green {
-	background-color: #93e269;
+  background-color: #93e269;
 }
 
 .menu-button:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 .menu-button:active {
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75) inset;
-	background-color: #FAAF40;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75) inset;
+  background-color: #faaf40;
 }
 
-a:hover, a:visited, a:link, a:active
-{
-	text-decoration: none;
-	color:#000;
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #000;
 }
 
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {
-    position: absolute;
-    left: -9999px;
+  position: absolute;
+  left: -9999px;
 }
 [type="radio"]:checked + label,
-[type="radio"]:not(:checked) + label
-{
-    position: relative;
-    padding-left: 28px;
-    cursor: pointer;
-    line-height: 25px;
-    display: inline-block;
-    color: #666;
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 25px;
+  display: inline-block;
+  color: #666;
 }
 [type="radio"]:checked + label:before,
 [type="radio"]:not(:checked) + label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #ddd;
-    border-radius: 100%;
-    background: #fff;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
 }
 [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after {
-    content: '';
-    width: 16px;
-    height: 16px;
-    background: #7dbff8;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    border-radius: 100%;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #7dbff8;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 [type="radio"]:not(:checked) + label:after {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
 }
 [type="radio"]:checked + label:after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 25px;
+  display: inline-block;
+  color: #666;
+}
+[type="checkbox"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20%;
+  background: #fff;
+}
+[type="checkbox"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #7dbff8;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 20%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
