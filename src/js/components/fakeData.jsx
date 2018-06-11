@@ -8,11 +8,11 @@ const fakeData = {
          "summary": "头痛%s天"
          },
         {"idx": 2,
-         "type": "choice",
+         "type": "multichoice",
          "question": "请问以下哪种情况下出现头痛",
          "answer": ['受凉', '过度劳累', '活动', '感冒', '睡眠', '不明'],
          "ret": 'idx of answer',
-         "summary": "患者%s天前在%s情况下出现头痛"
+         "summary": "患者在%s情况下出现头痛"
          },
         {"idx": 3,
          "type": "choice",
@@ -98,7 +98,7 @@ const fakeData = {
              "都没有",
          ],
          "ret": 'idx of answer',
-         "summary": "伴"
+         "summary": "伴%s"
          },
         {"idx": 11,
          "type": "choice",
