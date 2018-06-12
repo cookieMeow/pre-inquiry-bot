@@ -12,6 +12,7 @@ import InquiryProgress from "./InquiryProgress.js";
 import Question from "./Question.js";
 import RadioSelect from "./RadioSelect.js";
 import TextInput from "./TextInput.js";
+import { getEventHeadache } from "../../actions/SampleActions.js";
 
 class Inquiry extends Component {
   constructor(props) {
