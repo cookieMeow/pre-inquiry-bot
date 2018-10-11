@@ -5,7 +5,7 @@ import React, { Component } from "react";
 
 import Answer from "./Answer.js";
 import ButtonToolBar from "./ButtonToolBar.js";
-import Checkbox from "./Checkbox.js";
+import Checkbox1 from "./Checkbox1.js";
 import fakeData from "./fakeData.jsx";
 import InquiryContainer from "./InquiryContainer.js";
 import InquiryProgress from "./InquiryProgress.js";
@@ -118,12 +118,15 @@ class Inquiry extends Component {
       var rows = [];
       for (var i = 0; i < data.answer.length; i++) {
         rows.push(
-          <Checkbox
+          <div>
+          <Checkbox1
             label={data.answer[i]}
             index={this.state.index}
             handleCheckboxChange={this.handleCheckboxChange}
             key={data.answer[i]}
           />
+          <br/>
+          </div>
         );
       }
       return (
@@ -131,9 +134,11 @@ class Inquiry extends Component {
           <InquiryProgress progress={progress} />
           <Question>{data.question}</Question>
           <Answer>
-            <div className="Select-vertical" id={this.index}>
+          <div className="checkbox-option-wrapper">
+            <div className="checkbox-option-list" id={this.index}>
               {rows}
             </div>
+          </div>
           </Answer>
           <ButtonToolBar
             onNextClick={this.onNextClick}

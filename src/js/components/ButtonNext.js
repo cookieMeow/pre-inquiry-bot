@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
+import { Button } from "antd";
+import 'antd/dist/antd.css';
 
 class ButtonNext extends Component {
 	render() {
 		return (
 			<Button 
-				className="large-button main-button menu-button glossy" href={ this.props.link }
+				className="large-button main-button" href={ this.props.link }
+				type="primary"
 				bsStyle="success" 
 				bsSize="large"
 				onClick={ this.props.onClick }

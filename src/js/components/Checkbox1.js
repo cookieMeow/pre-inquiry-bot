@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { ToggleButtonGroup } from "react-bootstrap";
-import { ToggleButton } from "react-bootstrap";
-import { ButtonGroup } from "react-bootstrap";
+import { Checkbox } from 'antd';
 import "../../css/Button.css";
 
-class Checkbox extends Component {
+class Checkbox1 extends Component {
   state = {
     isChecked: false
   };
@@ -23,16 +21,15 @@ class Checkbox extends Component {
     const { label } = this.props;
     const { isChecked } = this.state;
     return (
-      <p>
-        <input
+        <Checkbox
+          className="checkbox-options"
           type="checkbox"
           name={label}
           value={label}
           id={label}
           onChange={this.toggleCheckboxChange}
-        />
-        <label for={label}> {label}</label>
-      </p>
+        >
+        {label}</Checkbox>
     );
   }
   render() {
@@ -40,4 +37,4 @@ class Checkbox extends Component {
   }
 }
 
-export default Checkbox;
+export default Checkbox1;
