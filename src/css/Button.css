@@ -16,6 +16,10 @@
   margin: 0 120px;
 }
 
+.defualt-button {
+  background-color: #d0d0d061;
+}
+
 @media (min-width: 974px) and (max-width: 1366px) {
   .main-button {
     margin: 0 50px;
@@ -152,7 +156,7 @@ a:active {
   color: #000;
 }
 
-[type="radio"]:checked,
+/*[type="radio"]:checked,
 [type="radio"]:not(:checked) {
   position: absolute;
   left: -9999px;
@@ -250,4 +254,4 @@ a:active {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
-}
+}*/

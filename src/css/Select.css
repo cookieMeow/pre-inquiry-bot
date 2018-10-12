@@ -7,3 +7,25 @@
 .radioSelect-long {
   font-size: 27px;
 }
+
+.radio-option-list {
+	text-align: left;
+}
+
+.radio-options >span {
+	font-size:22px;
+	line-height: 30px;
+}
+
+.checkbox-option-wrapper {
+	padding: 0 100px;
+}
+
+.checkbox-option-list{
+	text-align: left;
+}
+
+.checkbox-options >span {
+	font-size:22px;
+	line-height: 30px;
+}
